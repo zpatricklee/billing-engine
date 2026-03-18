@@ -9,7 +9,7 @@ This project is a Spring Boot-based billing engine microservice with REST APIs f
 - Trigger a retry action for failed payments
 
 ## Prerequisites
-- [Docker](https://www.docker.com/products/docker-desktop) installed
+- [Docker](https://www.docker.com/products/docker-desktop) installed **and running**
 - (Optional) [curl](https://curl.se/) or [Postman](https://www.postman.com/) for API testing
 
 ## Build and Run with Docker (Spring Boot Buildpacks)
