@@ -1,4 +1,4 @@
-package DTO;
+package com.zpatricklee.billing.DTO;
 
 import com.zpatricklee.billing.enums.PaymentMethod;
 

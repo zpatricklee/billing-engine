@@ -1,7 +1,7 @@
 package com.zpatricklee.billing.controller;
 
-import DTO.PaymentRequest;
-import DTO.PaymentResponse;
+import com.zpatricklee.billing.DTO.PaymentRequest;
+import com.zpatricklee.billing.DTO.PaymentResponse;
 import com.zpatricklee.billing.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

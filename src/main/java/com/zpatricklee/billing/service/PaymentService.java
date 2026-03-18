@@ -1,7 +1,7 @@
 package com.zpatricklee.billing.service;
 
-import DTO.PaymentRequest;
-import DTO.PaymentResponse;
+import com.zpatricklee.billing.DTO.PaymentRequest;
+import com.zpatricklee.billing.DTO.PaymentResponse;
 import com.zpatricklee.billing.enums.PaymentStatus;
 import com.zpatricklee.billing.model.PaymentRecord;
 import com.zpatricklee.billing.repository.PaymentRepository;
