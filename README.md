@@ -59,7 +59,7 @@ This project is a Spring Boot-based billing engine microservice with REST APIs f
   - `502 Bad Gateway` with payment ID if failed
 
 ### 4. Retry a Payment
-- **GET** `/api/payment/retry?id={paymentId}`
+- **POST** `/api/payment/retry?id={paymentId}`
 - **Response:**
   - `200 OK` if retried successfully
   - `404 Not Found` if payment ID does not exist
@@ -85,7 +85,7 @@ curl http://localhost:8080/api/policies/delinquent
 
 **Retry a Payment:**
 ```sh
-curl "http://localhost:8080/api/payment/retry?id=a1b2c3d4e5f6g7h8"
+curl -X POST "http://localhost:8080/api/payment/retry?id=a1b2c3d4e5f6g7h8"
 ```
 
 ## Notes
